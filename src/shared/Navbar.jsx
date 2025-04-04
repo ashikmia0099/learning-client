@@ -20,37 +20,37 @@ const Navbar = () => {
                 <div className='lg:flex'>
 
                     <NavLink to='/' className={({ isActive }) =>
-                        isActive ? " border-b-4 border-[#A4DBC1] " : ""
+                        isActive ? "   text-[#FCA5A5]" : " text-[#ffffff]"
                     }>
-                        <li><p className='text-lg font-semibold'>Home</p></li>
+                        <li><p className='text-lg font-semibold '>Home</p></li>
                     </NavLink>
 
 
                     <NavLink to='/findTutors' className={({ isActive }) =>
-                        isActive ? " border-b-4 border-[#A4DBC1] " : ""
+                        isActive ? "  text-[#FCA5A5] " : "text-[#ffffff]"
                     }>
-                        <li><p className='text-lg font-semibold'>Find tutors</p></li>
+                        <li><p className='text-lg font-semibold '>Find tutors</p></li>
                     </NavLink>
 
 
                     <NavLink to='/addtutorials' className={({ isActive }) =>
-                        isActive ? " border-b-4 border-[#A4DBC1] " : ""
+                        isActive ? "  text-[#FCA5A5] " : "text-[#ffffff]"
                     }>
-                        <li><p className='text-lg font-semibold'>Add Tutorials</p></li>
+                        <li><p className='text-lg font-semibold '>Add Tutorials</p></li>
                     </NavLink>
 
 
                     <NavLink to='/myTutorials' className={({ isActive }) =>
-                        isActive ? " border-b-4 border-[#A4DBC1] " : ""
+                        isActive ? "  text-[#FCA5A5] " : "text-[#ffffff]"
                     }>
-                        <li><p className='text-lg font-semibold'>My Tutorials</p></li>
+                        <li><p className='text-lg font-semibold '>My Tutorials</p></li>
                     </NavLink>
 
 
                     <NavLink to='/myBookedTutors' className={({ isActive }) =>
-                        isActive ? " border-b-4 border-[#A4DBC1] " : ""
+                        isActive ? "  text-[#FCA5A5] " : "text-[#ffffff]"
                     }>
-                        <li><p className='text-lg font-semibold'>My booked tutors</p></li>
+                        <li><p className='text-lg font-semibold '>My booked tutors</p></li>
                     </NavLink>
 
 
@@ -61,14 +61,14 @@ const Navbar = () => {
                 <div className='lg:flex'>
 
                     <NavLink to='/' className={({ isActive }) =>
-                        isActive ? " border-b-4 border-[#A4DBC1] " : ""
+                        isActive ? " border-b-4 text-[#FCA5A5] " : ""
                     }>
-                        <li><p className='text-lg font-semibold'>Home</p></li>
+                        <li><p className='text-lg font-semibold text-[#ffffff]'>Home</p></li>
                     </NavLink>
                     <NavLink to='/findTutors' className={({ isActive }) =>
-                        isActive ? " border-b-4 border-[#A4DBC1] " : ""
+                        isActive ? " border-b-4 text-[#FCA5A5] " : ""
                     }>
-                        <li><p className='text-lg font-semibold'>Find tutors</p></li>
+                        <li><p className='text-lg font-semibold text-[#ffffff]'>Find tutors</p></li>
                     </NavLink>
                     <NavLink ><li className='text-lg font-semibold'><a>About Us</a></li></NavLink>
                     <NavLink ><li className='text-lg font-semibold'><a>Contract Us</a></li></NavLink>
@@ -103,8 +103,8 @@ const Navbar = () => {
 
     return (
 
-        <div className='  sticky top-0 z-40'>
-            <div className="navbar grid grid-cols-10  lg:backdrop-blur-xl bg-white/50 px-0 lg:px-40 mx-auto">
+        <div className='  sticky top-0 z-40 '>
+            <div className="navbar grid grid-cols-10  lg:backdrop-blur-xl bg-[#171f2d] px-0  mx-auto max-w-7xl">
             <div className="col-span-1 navbar-start">
                 <div className="dropdown">
                     <div
@@ -168,7 +168,7 @@ const Navbar = () => {
                             </ul>
                         </div>
                         <NavLink onClick={handleLogout}>
-                            <a className="text-md font-semibold">Logout</a>
+                            <a className="text-md font-semibold text-white">Logout</a>
                         </NavLink>
                     </div>
                 ) : (

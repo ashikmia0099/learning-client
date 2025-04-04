@@ -135,7 +135,8 @@ const Homepage = () => {
                     </div>
                 </div>
 
-                <div className=' grid lg:grid-cols-2 px-10 lg:py-14 py-5 md:block hidden'>
+                <div className="hidden md:grid lg:grid-cols-2 px-10 lg:py-14 py-5">
+
                     <div>
                         <img src={trackingproblem2} alt="" />
                     </div>

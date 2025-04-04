@@ -7,7 +7,7 @@ const TheamContoler = () => {
   return (
     <button
       onClick={toggleTheme}
-      className="btn btn-ghost"
+      className="btn btn-ghost text-white"
       aria-label="Toggle Theme"
     >
       {theme === 'light' ? '☀️ Light' : '🌙 Dark'}
