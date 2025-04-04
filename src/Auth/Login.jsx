@@ -89,7 +89,7 @@ const Login = () => {
                 </label>
             </div>
             <div className="form-control mt-6 mb-4">
-                <button className="btn bg-black border-none text-[#A4DBC1] text-xl font-semibold w-72 hover:rounded-full hover:bg-[#6b9481] hover:text-black">Login</button>
+                <button className="btn bg-black border-none text-[#A4DBC1] text-xl font-semibold w-full hover:rounded-full hover:bg-[#6b9481] hover:text-black">Login</button>
             </div>
             <div className=' md:flex  gap-4 '>
                 <button className='btn mt-2 mx-2' onClick={handlegoogleSignIn}> <FcGoogle /> Google</button>

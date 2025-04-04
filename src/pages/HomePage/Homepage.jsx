@@ -59,9 +59,9 @@ const Homepage = () => {
                 <div className='space-x-10  items-center  mt-20'>
                     <h1 className='text-4xl font-bold  my-5 text-white text-center lg:text-left md:mx-10 sm:mx-0'>Become fluent in any language </h1>
                     <ul className='p-3'>
-                        <li className='flex items-start md:items-center text-[#AFA89D] my-2 gap-3 font-semibold'><span><FaLightbulb className='text-red-400' /></span>Take customizable 1-on-1 lessons trusted by millions of users</li>
-                        <li className='flex items-start md:items-center text-[#AFA89D] my-2 gap-3 font-semibold'><span><FaLightbulb className='text-red-400' /></span>Learn from certified teachers that fit your budget and schedule</li>
-                        <li className='flex items-start md:items-center text-[#AFA89D] my-2 gap-3 font-semibold'><span><FaLightbulb className='text-red-400' /></span>Connect with a global community of language learners</li>
+                        <li className='flex items-start md:items-center text-[#AFA89D] my-2 gap-3 font-semibold text-sm md:text-lg'><span><FaLightbulb className='text-red-400' /></span>Take customizable 1-on-1 lessons trusted by millions of users</li>
+                        <li className='flex items-start md:items-center text-[#AFA89D] my-2 gap-3 font-semibold text-sm md:text-lg'><span><FaLightbulb className='text-red-400' /></span>Learn from certified teachers that fit your budget and schedule</li>
+                        <li className='flex items-start md:items-center text-[#AFA89D] my-2 gap-3 font-semibold text-sm md:text-lg'><span><FaLightbulb className='text-red-400' /></span>Connect with a global community of language learners</li>
 
                     </ul>
                     <div className=' lg:text-left my-9 mx-auto flex md:justify-start justify-center  '>
@@ -107,7 +107,7 @@ const Homepage = () => {
             {/* section 3 */}
 
             <div className='bg-black py-10'>
-                <h1 className='text-white  md:text-5xl font-bold text-3xl text-center'>See Our Professonal Teacher</h1>
+                <h1 className='text-white  md:text-5xl font-bold text-4xl text-center'>See Our Professonal Teacher</h1>
 
                 <div className='grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 px-3 mt-16 '>
                     {
@@ -128,7 +128,7 @@ const Homepage = () => {
 
                 <div className=' grid lg:grid-cols-2 px-10 py-5 lg:py-14 leading-10'>
                     <div className=' flex items-center'>
-                        <p className=' text-lg font-light text-white px-2 md:px-10 leading-6 md:leading-10 text-center lg:text-left'>Often, students struggle with their work and rely on tutoring, but tuition classes have become very expensive. Especially during COVID, many schools went online and even completely virtual leaving students to learn content on their own. We've created a program that connects students aged 7-13 to high school and college tutors around the world. These tutors teach their students subjects like Science, Math, and English.</p>
+                        <p className=' text-sm md:text-lg  font-light text-white px-2 md:px-10 leading-6 md:leading-10 text-center lg:text-left'>Often, students struggle with their work and rely on tutoring, but tuition classes have become very expensive. Especially during COVID, many schools went online and even completely virtual leaving students to learn content on their own. We've created a program that connects students aged 7-13 to high school and college tutors around the world. These tutors teach their students subjects like Science, Math, and English.</p>
                     </div>
                     <div>
                         <img src={trackingproblem1} alt=""className=' mt-4' />
@@ -137,8 +137,8 @@ const Homepage = () => {
 
                 <div className="hidden md:grid lg:grid-cols-2 px-10 lg:py-14 py-5">
 
-                    <div>
-                        <img src={trackingproblem2} alt="" />
+                    <div className=' '>
+                        <img src={trackingproblem2} alt="" className=' ' />
                     </div>
                     <div className=' flex items-center'>
                         <p className=' text-lg font-light text-white px-10 leading-10'>Education is one of the most important aspects of success, and it is becoming more expensive and less accessible which is unacceptable and it needs to change. All of our bright tutors are very qualified and are willing to help students out with any subjects they are having trouble with <span className=' font-bold'>Educationist supports the UN's Development Goal Four of "[ensuring] inclusive and equitable quality education and [promoting] lifelong learning opportunities for all"</span></p>
@@ -159,11 +159,11 @@ const Homepage = () => {
                 </div>
                 <div className='text-white mt-6 lg:mt-0 mx-5 text-center  lg:text-left'>
                     <h1 className=' text-4xl lg:text-7xl font-bold text-red-300 lg:w-2/3'>Become A Tutor</h1>
-                    <p className='mt-5 text-lg font-semibold my-5'>Earn money sharing your expert knowledge with students. Sign up to start tutoring online with Preply.</p>
+                    <p className='mt-5 text-sm md:text-lg font-semibold my-5'>Earn money sharing your expert knowledge with students. Sign up to start tutoring online with Preply.</p>
                     <ul>
-                        <li className='flex items-start lg:items-center text-[#AFA89D] my-2 gap-3 font-semibold'><span><FaLightbulb className='text-red-400' /></span>Take customizable 1-on-1 lessons trusted by millions of users</li>
-                        <li className='flex items-start lg:items-center text-[#AFA89D] my-2 gap-3 font-semibold'><span><FaLightbulb className='text-red-400' /></span>Learn from certified teachers that fit your budget and schedule</li>
-                        <li className='flex items-start lg:items-center text-[#AFA89D] my-2 gap-3 font-semibold'><span><FaLightbulb className='text-red-400' /></span>Connect with a global community of language learners</li>
+                        <li className='flex items-start lg:items-center text-[#AFA89D] my-2 gap-3 font-semibold text-sm md:text-lg text-left'><span><FaLightbulb className='text-red-400' /></span>Take customizable 1-on-1 lessons trusted by millions of users</li>
+                        <li className='flex items-start lg:items-center text-[#AFA89D] my-2 gap-3 font-semibold text-sm md:text-lg text-left'><span><FaLightbulb className='text-red-400' /></span>Learn from certified teachers that fit your budget and schedule</li>
+                        <li className='flex items-start lg:items-center text-[#AFA89D] my-2 gap-3 font-semibold text-sm md:text-lg text-left'><span><FaLightbulb className='text-red-400' /></span>Connect with a global community of language learners</li>
 
                     </ul>
 
@@ -187,8 +187,8 @@ const Homepage = () => {
                 <div className="hero-overlay"></div>
                 <div className="hero-content text-neutral-content text-center">
                     <div className="">
-                        <h1 className="mb-5 text-3xl md:text-5xl font-bold"> The Importance of Learning a Language</h1>
-                        <p className="mb-5 text-xl leading-8 md:leading-10" >
+                        <h1 className="mb-5 text-4xl md:text-5xl font-bold"> The Importance of Learning a Language</h1>
+                        <p className="mb-5 text-sm md:text-lg leading-5 md:leading-10" >
                         Learning a new language enhances cognitive abilities, improves memory, and strengthens problem-solving skills. It opens doors to new cultures, allowing better communication and deeper understanding. Language learning boosts career opportunities, as multilingual individuals are highly valued in global industries. It also improves brain health, delaying cognitive decline. Immersive learning methods, like speaking with native speakers, reading, and practicing daily, accelerate fluency. Consistency and patience are key. Language skills build confidence and expand social connections worldwide. Whether for travel, work, or personal growth, mastering a new language is a rewarding and lifelong journey. Keep practicing and stay motivated! 🌍📚
                         </p>
                         
@@ -200,7 +200,7 @@ const Homepage = () => {
         {/* section 7 */}
 
         <div className='bg-[#1E293B] py-14'>
-            <h1 className=' text-white text-3xl md:text-5xl font-bold text-center'> We Are Connected</h1>
+            <h1 className=' text-white text-4xl md:text-5xl font-bold text-center'> We Are Connected</h1>
 
             <div className=' grid grid-cols-2 lg:grid-cols-4 gap-5 px-3 md:px-10 py-14 space-y-3'>
                 <img className=' h-40 pt-10' src={logo1} alt="" />
