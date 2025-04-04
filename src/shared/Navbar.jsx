@@ -61,20 +61,16 @@ const Navbar = () => {
                 <div className='lg:flex'>
 
                     <NavLink to='/' className={({ isActive }) =>
-                        isActive ? "  text-[#FCA5A5] " : ""
+                        isActive ? "  text-[#FCA5A5] " : "text-[#ffffff]"
                     }>
-                        <li><p className='text-lg font-semibold text-[#ffffff]'>Home</p></li>
+                        <li><p className='text-lg font-semibold '>Home</p></li>
                     </NavLink>
                     <NavLink to='/findTutors' className={({ isActive }) =>
-                        isActive ? "  text-[#FCA5A5] " : ""
+                        isActive ? "  text-[#FCA5A5] " : "text-[#ffffff]"
                     }>
-                        <li><p className='text-lg font-semibold text-[#ffffff]'>Find tutors</p></li>
+                        <li><p className='text-lg font-semibold '>Find tutors</p></li>
                     </NavLink>
-                    <NavLink to='' className={({ isActive }) =>
-                        isActive ? "  text-[#FCA5A5] " : ""
-                    }>
-                        <li><p className='text-lg font-semibold text-[#ffffff]'>About Us</p></li>
-                    </NavLink>
+                   
 
 
 

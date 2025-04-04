@@ -1,28 +1,30 @@
 import React from 'react';
 
+import logo from '../../../src/assets/bannerPageImage/logo.png'
+
 const Footer = () => {
   return (
     <div className=''>
-      <div className="footer bg-[#293445] text-base-content p-10 max-w-7xl mx-auto">
-        <div>
-          <h6 className="footer-title text-white">Services</h6>
-          <a className="link link-hover">Branding</a>
-          <a className="link link-hover">Design</a>
-          <a className="link link-hover">Marketing</a>
-          <a className="link link-hover">Advertisement</a>
+      <div className="footer bg-[#293445] text-base-content p-10 max-w-7xl mx-auto grid lg:grid-cols-12">
+        <div className=' col-span-6 mx-auto'>
+          
+         <img src={logo} className=' h-32 w-32' alt="" />
+          <a className="link link-hover text-2xl text-white pt-3 font-semibold ">Flying Care Createing New World </a>
+          <p className=' text-white pt-3 w-3/4'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima culpa placeat eos aliquam ut, cumque, maxime itaque vel nisi numquam debitis at nostrum magnam.</p>
         </div>
-        <div>
-          <h6 className="footer-title text-white">Contact Us</h6>
+        <div className='lg:col-span-4'>
+          <h6 className="footer-title text-white text-xl">Contact Us</h6>
           <ul>
-            <li className=' text-white py-2'> <span className=' text-xl font-semibold'>Email : </span>  ashikmia5686@gmail.com</li>
-            <li className=' text-white py-2'> <span className=' text-xl font-semibold'>Whatsapp : </span> +8801403226133</li>
-            <li className=' text-white py-2'> <span className=' text-xl font-semibold'>Email : </span>  ashikmia5686@gmail.com</li>
+            <li className=' text-white py-2'> <span className=' text-lg font-semibold'>Email : </span>  ashikmia5686@gmail.com</li>
+            <li className=' text-white py-2'> <span className=' text-lg font-semibold'>Whatsapp : </span> +8801403226133</li>
+            <li className=' text-white py-2'> <span className=' text-lg font-semibold'>Email : </span>  ashikmia5686@gmail.com</li>
             
           </ul>
 
         </div>
-        <div>
-          <h6 className="footer-title">Social</h6>
+        <br />
+        <div className=' hidden lg:block'>
+          <h6 className="footer-title text-white text-xl">Social</h6>
           <div className="grid grid-flow-col gap-4">
             <a>
               <svg
